@@ -1,0 +1,20 @@
+[app]
+name="learner-corpora"
+title="Learner Corpora"
+def_prof="clarin.eu:cr1:p_1721373444013"
+lang.def="en"
+lang.all.i1="en"
+cmdi_version="1.2"
+
+
+[app.prof.corpus]
+prof="clarin.eu:cr1:p_1721373444013"
+label_en="corpus"
+label_plural_en="corpora"
+title="string(/cmd:CMD/cmd:Components/cmdp:LCmeta/cmdp:Administrative_metadata/cmdp:corpus_name)"
+
+[app.prof.corpus.list.title]
+xpath="string(/cmd:CMD/cmd:Components/cmdp:LCmeta/cmdp:Administrative_metadata/cmdp:corpus_name)"
+label="Title"
+sort="true"
+filter="true"
