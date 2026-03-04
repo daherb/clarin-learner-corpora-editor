@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><ComponentSpec xmlns:clariah="http://www.clariah.eu/" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd">
+    <Header>
+        <ID>clarin.eu:cr1:p_1766041970054</ID>
+        <Name>LCmeta</Name>
+        <Description>Metadata for a Learner Corpus</Description>
+        <Status>development</Status>
+        <DerivedFrom>clarin.eu:cr1:p_1721373444013</DerivedFrom>
+    </Header>
+    <Component name="LCmeta">
+        <clariah:label xml:lang="en">Language Corpus metadata</clariah:label>
+        <Component name="Administrative_metadata">
+            <Element name="corpus_name">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_acronym">                
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_version">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_pid">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_cite_as">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_ref_article">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_description">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_documentation">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_author">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_contributor">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_contact_mail">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_publisher">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_availability">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_access_requirements">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_licence">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_licence_url">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_date_of_publication">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_other_versions">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_character_encoding">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Component name="corpus_related_research_project">
+                <clariah:explanation src="documentation"/>
+                <Element name="corpus_related_research_project_name">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="corpus_related_research_project_URL">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+            <Component name="corpus_file_format">
+                <Element name="corpus_file_format">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="corpus_file_format_specifications">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+        </Component>
+        <Component name="Corpus_design">
+            <Element name="corpus_target_language" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>                
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
+            </Element>
+            <Element name="corpus_L1_language" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>                
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
+            </Element>
+            <Element name="corpus_size">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_size_tokens">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_size_texts">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_size_learners">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_mode">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_transcription">
+                <clariah:explanation src="documentation"/>
+                <AutoValue/>
+            </Element>
+            <Element name="corpus_transcription_guidelines">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_privacy_protection">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_privacy_protection_documentation">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_single_or_multi_author">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_text_versioning">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_longitudinal">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_time_of_data_collection">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_place_of_data_collection">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_specialized_language_use">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_production_setting">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_language_testing_setting">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_proficiency_level">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_proficiency_assignment_available">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_proficiency_assignment_method">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_learner_proficiency_assignment_method">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_learner_proficiency_assignment_instrument">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_learner_proficiency_documentation">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_text_proficiency_assignment_method">
+                <clariah:explanation src="documentation"/>
+                
+            </Element>
+            <Element name="corpus_text_proficiency_assignment_instrument">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_text_proficiency_documentation">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_motivation_test">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_attitude_test">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_aptitude_test">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_comparable_data_included">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Element name="corpus_related">
+                <clariah:explanation src="documentation"/>
+            </Element>
+            <Component name="Text">
+                <Element name="text_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_file">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="learner_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="transcriber_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="situation_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotator_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_language">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="text_version">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_time_of_creation">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_place_of_data_collection">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_tool">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="text_proficiency">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_official_language_testing_score">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_proficiency_CEFR_conversion">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="text_note">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="text_token_count">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+            <Component name="Learner">
+                <Element name="learner_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Component name="Learner_sociodenographic">
+                    <Element name="learner_age">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_gender">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_educational_background">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_socioeconomic_status">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_country">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_region">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_environment">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_impairment">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_impairment_details">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_atypical_learning">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_atypical_learning_details">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+                <Component name="Learner_target_language">
+                    <Element name="learner_target_language">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_target_language_instructed">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_immersive_instruction">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_environment">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="months_spent_target_language_environment">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_onset">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_learning_context">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_use_context">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_listening_experience">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_speaking_experience">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_reading_experience">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_writing_experience">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_use_social_media">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_proficiency">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_target_language_proficiency_CEFR_conversion">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_target_language_official_language_testing_score">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+                <Component name="Learner_Ln_differences">
+                    <Element name="learner_L1">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_parent_L1">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_home_language">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_language_friends">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_language_education_kindergarten">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_language_education_primary">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_language_education_secondary">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="learner_language_education_higher">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                </Component>
+                <Component name="Learner_other_languages">
+                    <Component name="learner_L2">
+                        <clariah:explanation src="documentation"/>
+                        <Element name="learner_L2">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_onset">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_learning_context">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_use_context">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_listening_experience">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_speaking_experience">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_reading_experience">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_writing_experience">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_CMC">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_proficiency">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                        <Element name="learner_L2_language_proficiency_CEFR_conversion">
+                            <clariah:explanation src="documentation"/>
+                            
+                        </Element>
+                        <Element name="learner_L2_months_spent_L2_environment">
+                            <clariah:explanation src="documentation"/>
+                        </Element>
+                    </Component>
+                </Component>
+                <Component name="Learner_other_differences">
+                    <Element name="learner_motivation">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_attitude">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="learner_aptitude">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+                <Component name="Learner_notes">
+                    <Element name="learner_note">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+            </Component>
+            <Component name="Situational_and_task_characteristics">
+                <Element name="situation_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Component name="Situational_and_task_characteristics_Situational">
+                    <Element name="situation_participants_addressor">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_participants_addressee">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_participants_addressee_type">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_participants_onlookers">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="situation_mode">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_medium">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_planning_type">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_setting">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_purpose">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_purpose_specific">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="situation_topic_domain">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_topic_specific">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="situation_register">
+                        <clariah:explanation src="documentation"/>
+                        
+                    </Element>
+                    <Element name="situation_register_specific">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+                <Component name="Situational_and_task_characteristics_Task">
+                    <Element name="task_instructions">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_material">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_duration">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_duration_minutes">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_ref_tools_allowed">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_ref_tools">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                    <Element name="task_assessed">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+                <Component name="Situational_and_task_characteristics_Notes">
+                    <Element name="task_note">
+                        <clariah:explanation src="documentation"/>
+                    </Element>
+                </Component>
+            </Component>
+            <Component name="Annotation">
+                <Element name="annotation_type">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="annotation_automatic">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_tool">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_tool_version">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotator_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_evaluation">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_corrected">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotation_documentation">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+            <Component name="Annotator">
+                <Element name="annotator_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotator_L1">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="annotator_target_language_competence">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="annotator_type">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="annotator_L2">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="annotator_note">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+            <Component name="Transcriber">
+                <Element name="transcriber_id">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="transcriber_L1">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="transcriber_target_language_competence">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="transcriber_type">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+                <Element name="transcriber_L2">
+                    <clariah:explanation src="documentation"/>
+                    
+                </Element>
+                <Element name="transcriber_note">
+                    <clariah:explanation src="documentation"/>
+                </Element>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>
