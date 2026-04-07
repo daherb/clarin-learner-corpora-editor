@@ -99,15 +99,15 @@
         <Component name="Corpus_design" ComponentRef="clarin.eu:cr1:c_1747312582469" CardinalityMin="1" CardinalityMax="1">
             <Element name="corpus_target_language" ConceptLink="http://www.wikidata.org/entity/Q18387998" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Description: Target language; Fixed attributes: [ISO language code 639-3], other; Further details and examples: en; use “other” for under-represented Ls</Documentation>
-                <ValueScheme>
+<!--                 <ValueScheme>
                     <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                </ValueScheme>
+                </ValueScheme> -->
             </Element>
             <Element name="corpus_L1_language" ConceptLink="http://www.wikidata.org/entity/Q36870" CardinalityMin="1" CardinalityMax="unbounded">
                 <Documentation>Description: L1 language; Fixed attributes: [ISO language code 639-3], other; Further details and examples: en; use “other” for under-represented Ls</Documentation>
-                <ValueScheme>
+<!--                 <ValueScheme>
                     <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                </ValueScheme>
+                </ValueScheme> -->
             </Element>
             <Element name="corpus_size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
                 <Documentation>Description: Corpus size; Further details and examples: Storage requirement in KB, MB, GB, TB or PB</Documentation>
@@ -300,9 +300,9 @@
                 </Element>
                 <Element name="text_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-6852_7a13f56b-c2ba-c7da-9888-6f12531095b5" CardinalityMin="1" CardinalityMax="1">
                     <Documentation>Description: Language; Fixed attributes: [ISO language code 639-3]</Documentation>
-                    <ValueScheme>
-                        <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                    </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                 </Element>
                 <Element name="text_version" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
                     <Documentation>Description: Text version number; Condition: if corpus_text_versioning = true</Documentation>
@@ -426,9 +426,9 @@
                 <Component name="Learner_target_language" ComponentRef="clarin.eu:cr1:c_1758888743542" CardinalityMin="1" CardinalityMax="1">
                     <Element name="learner_target_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2499_52993a80-0bcf-d671-22dc-903effdb98b7" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Description: Learner target language; Fixed attributes: [ISO language code 639-3]</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_target_language_instructed" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1">
                         <Documentation>Description: Was the learner in an instructed learning context at the time of data collection?; Fixed attributes: true, false</Documentation>
@@ -491,51 +491,51 @@
                 <Component name="Learner_Ln_differences" ComponentRef="clarin.eu:cr1:c_1758888743543" CardinalityMin="1" CardinalityMax="1">
                     <Element name="learner_L1" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Description: Learner L1; Fixed attributes: [ISO language code 639-3]; Further details and examples: L1 often refers to the language(s) that a person learns from birth or infancy, which is/are also often their primary and most proficient language(s). However, there is some variability in the definition of the term in L2 research. Please use the corpus documentation to provide more details about your understanding of this term if relevant.</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_parent_L1" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Parent L1; Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (parent, language ISO code) if you want to add more info, e.g. [mother, eng], [father, spa]; [mother, eng], [mother2, ger]</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_home_language" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Language spoken at home; Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_language_friends" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Language used with friends; Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_language_education_kindergarten" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Language of education (kindergarten); Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_language_education_primary" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Language of education (primary school); Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_language_education_secondary" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Description: Language of education (secondary school); Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                     <Element name="learner_language_education_higher" CardinalityMin="1" CardinalityMax="1">
                         <Documentation>Description: Language of education (higher education); Fixed attributes: [ISO language code 639-3]; Further details and examples: Use tuple of (language ISO code, percentage) if you want to add more info</Documentation>
-                        <ValueScheme>
-                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                        </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                     </Element>
                 </Component>
                 <Component name="Learner_other_languages" ComponentRef="clarin.eu:cr1:c_1758888743544" CardinalityMin="0" CardinalityMax="unbounded">
@@ -852,9 +852,9 @@
                 </Element>
                 <Element name="annotator_L1" CardinalityMin="1" CardinalityMax="unbounded">
                     <Documentation>Description: Annotator L1; Fixed attributes: [ISO language code 639-3]</Documentation>
-                    <ValueScheme>
-                        <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                    </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                 </Element>
                 <Element name="annotator_target_language_competence" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Description: Annotator target language competence; Fixed attributes: A1, A2, B1, B2, C1, C2</Documentation>
@@ -876,9 +876,9 @@
                 </Element>
                 <Element name="annotator_L2" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>Description: Annotator L2; Fixed attributes: [ISO language code 639-3]</Documentation>
-                    <ValueScheme>
-                        <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                    </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                 </Element>
                 <Element name="annotator_note" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Description: Any comments regarding the annotator; Further details and examples: This could include more details about their mutlingual profile</Documentation>
@@ -890,9 +890,9 @@
                 </Element>
                 <Element name="transcriber_L1" CardinalityMin="1" CardinalityMax="unbounded">
                     <Documentation>Description: Transcriber L1; Fixed attributes: [ISO language code 639-3]</Documentation>
-                    <ValueScheme>
-                        <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                    </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                 </Element>
                 <Element name="transcriber_target_language_competence" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Description: Transcriber target language competence; Fixed attributes: A1, A2, B1, B2, C1, C2</Documentation>
@@ -914,9 +914,9 @@
                 </Element>
                 <Element name="transcriber_L2" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>Description: Transcriber L2; Fixed attributes: [ISO language code 639-3]</Documentation>
-                    <ValueScheme>
-                        <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
-                    </ValueScheme>
+<!--                 <ValueScheme>
+                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="http://www.w3.org/2004/02/skos/core#prefLabel" ValueLanguage="en"/>
+                </ValueScheme> -->
                 </Element>
                 <Element name="transcriber_note" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Description: Any comments regarding the transcriber; Further details and examples: This could include more details about their mutlingual profile</Documentation>

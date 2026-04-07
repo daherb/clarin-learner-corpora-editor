@@ -87,12 +87,12 @@
             </Component>
         </Component>
         <Component name="Corpus_design">
-            <Element name="corpus_target_language" ValueScheme="string"  cue:class="skosType">
-                <clariah:explanation src="documentation"/>                
+          <Element name="corpus_target_language" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
                 <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
             </Element>
             <Element name="corpus_L1_language" ValueScheme="string"  cue:class="skosType">
-                <clariah:explanation src="documentation"/>                
+                <clariah:explanation src="documentation"/>
                 <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
             </Element>
             <Element name="corpus_size">
@@ -219,9 +219,9 @@
                 <Element name="annotator_id">
                     <clariah:explanation src="documentation"/>
                 </Element>
-                <Element name="text_language">
-                    <clariah:explanation src="documentation"/>
-                    
+                <Element name="text_language" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                 </Element>
                 <Element name="text_version">
                     <clariah:explanation src="documentation"/>
@@ -295,9 +295,9 @@
                     </Element>
                 </Component>
                 <Component name="Learner_target_language">
-                    <Element name="learner_target_language">
-                        <clariah:explanation src="documentation"/>
-                        
+		    <Element name="learner_target_language"  ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
                     <Element name="learner_target_language_instructed">
                         <clariah:explanation src="documentation"/>
@@ -347,37 +347,37 @@
                     </Element>
                 </Component>
                 <Component name="Learner_Ln_differences">
-                    <Element name="learner_L1">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_L1" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_parent_L1">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_parent_L1" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_home_language">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_home_language" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_language_friends">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_language_friends" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_language_education_kindergarten">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_language_education_kindergarten" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_language_education_primary">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_language_education_primary" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_language_education_secondary">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_language_education_secondary" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
-                    <Element name="learner_language_education_higher">
-                        <clariah:explanation src="documentation"/>
-                        
+                    <Element name="learner_language_education_higher" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                     </Element>
                 </Component>
                 <Component name="Learner_other_languages">
@@ -557,9 +557,9 @@
                 <Element name="annotator_id">
                     <clariah:explanation src="documentation"/>
                 </Element>
-                <Element name="annotator_L1">
-                    <clariah:explanation src="documentation"/>
-                    
+                <Element name="annotator_L1" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                 </Element>
                 <Element name="annotator_target_language_competence">
                     <clariah:explanation src="documentation"/>
@@ -568,9 +568,9 @@
                 <Element name="annotator_type">
                     <clariah:explanation src="documentation"/>
                 </Element>
-                <Element name="annotator_L2">
-                    <clariah:explanation src="documentation"/>
-                    
+                <Element name="annotator_L2" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                 </Element>
                 <Element name="annotator_note">
                     <clariah:explanation src="documentation"/>
@@ -580,9 +580,9 @@
                 <Element name="transcriber_id">
                     <clariah:explanation src="documentation"/>
                 </Element>
-                <Element name="transcriber_L1">
-                    <clariah:explanation src="documentation"/>
-                    
+                <Element name="transcriber_L1" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                 </Element>
                 <Element name="transcriber_target_language_competence">
                     <clariah:explanation src="documentation"/>
@@ -591,9 +591,9 @@
                 <Element name="transcriber_type">
                     <clariah:explanation src="documentation"/>
                 </Element>
-                <Element name="transcriber_L2">
-                    <clariah:explanation src="documentation"/>
-                    
+                <Element name="transcriber_L2" ValueScheme="string"  cue:class="skosType">
+                <clariah:explanation src="documentation"/>
+                <clariah:autoCompleteURI>/proxy/skosmos/clavas/ISO639-3</clariah:autoCompleteURI>
                 </Element>
                 <Element name="transcriber_note">
                     <clariah:explanation src="documentation"/>
